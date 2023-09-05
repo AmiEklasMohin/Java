@@ -7,7 +7,7 @@ public class TypeCasting {
         int integerNumber = (int) (floatingPointNumber);
         System.out.println(integerNumber);
         long longTypeVariable = sc.nextLong();
-        int integerTypeVariable = (int)longTypeVariable;
+        int integerTypeVariable = (int) longTypeVariable;
         System.out.println(integerTypeVariable);
         sc.close();
     }
