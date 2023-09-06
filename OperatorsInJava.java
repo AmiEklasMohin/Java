@@ -8,7 +8,7 @@ public class OperatorsInJava {
                                     "Assignment Operators"
                                    };
         for (int i = 0; i < OperatorsInJava.length; i++) {
-            System.out.println((i + 1) +". "+ OperatorsInJava[i]);
+            System.out.println((i + 1) + ". " + OperatorsInJava[i]);
         }
     }
 }
