@@ -1,8 +1,5 @@
-import java.util.Scanner;
-
 public class TypePromotionInExpression {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         char a = 'a';
         char b = 'b';
         System.out.println((int)b);
@@ -24,6 +21,5 @@ public class TypePromotionInExpression {
         byte bb = 5;
         bb = (byte) (bb * 2);
         System.out.println(bb);
-        sc.close();
     }
 }
