@@ -1,14 +1,12 @@
-import java.util.Scanner;
-
 public class TypeCasting {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        float floatingPointNumber = sc.nextFloat();
-        int integerNumber = (int) (floatingPointNumber);
-        System.out.println(integerNumber);
-        long longTypeVariable = sc.nextLong();
+        float floatingPointNumber = 354.3957f;
+        System.out.println("Floating Point Number : " + floatingPointNumber);
+        int integerNumber = (int) floatingPointNumber;
+        System.out.println("Integer Number : " + integerNumber);
+        long longTypeVariable = 394563496743957L;
+        System.out.println("Long value : " + longTypeVariable);
         int integerTypeVariable = (int) longTypeVariable;
-        System.out.println(integerTypeVariable);
-        sc.close();
+        System.out.println("Long value after TypeCasting into Integer : " + integerTypeVariable);
     }
 }
