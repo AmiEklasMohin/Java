@@ -2,16 +2,11 @@ public class TypePromotionInExpression {
     public static void main(String[] args) {
         char a = 'a';
         char b = 'b';
-        System.out.println((int)b);
-        System.out.println((int)a);
+        System.out.println((int) (a));
+        System.out.println((int) (b));
         System.out.println(b - a);
         System.out.println(a);
         System.out.println(b);
-        short s = 5;
-        byte bt = 25;
-        char ch = 'c';
-        byte add = (byte) (s + bt + ch);
-        System.out.println(add);
         int x = 10;
         float y = 20.25f;
         long z = 25;
