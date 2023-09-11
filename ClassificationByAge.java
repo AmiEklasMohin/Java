@@ -1,12 +1,17 @@
+import java.util.Scanner;
+
 public class ClassificationByAge {
     public static void main(String[] args) {
-        int age = 23;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your age : ");
+        int age = scanner.nextInt();
         if (age >= 18) {
-            System.out.println("Adult");
+            System.out.println("You are an Adult.");
         } else if (age >= 13 && age < 18) {
-            System.out.println("Teenager");
+            System.out.println("You are a Teenager.");
         } else {
-            System.out.println("Child");
+            System.out.println("You are a Child.");
         }
+        scanner.close();
     }
 }
