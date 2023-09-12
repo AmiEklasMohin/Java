@@ -1,20 +1,18 @@
+import java.util.Scanner;
+
 public class RelationalOperators {
     public static void main(String[] args) {
-        int a = 6;
-        int b = 6;
-        System.out.println(a == b);
-        System.out.println(a != b);
-        System.out.println(a > b);
-        System.out.println(a < b);
-        System.out.println(a >= b);
-        System.out.println(a <= b);
-        a = 56;
-        b = 87;
-        System.out.println(a == b);
-        System.out.println(a != b);
-        System.out.println(a > b);
-        System.out.println(a < b);
-        System.out.println(a >= b);
-        System.out.println(a <= b);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("A = ");
+        int A = scanner.nextInt();
+        System.out.print("B = ");
+        int B = scanner.nextInt();
+        System.out.println("A is equal to B -> " + (A == B));
+        System.out.println("A is not equal to B -> " + (A != B));
+        System.out.println("A is greater than B -> " + (A > B));
+        System.out.println("A is less than B -> " + (A < B));
+        System.out.println("A is greater than equal to B -> " + (A >= B));
+        System.out.println("A is less than equal to B -> " + (A <= B));
+        scanner.close();
     }
 }
