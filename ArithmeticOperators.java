@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class ArithmeticOperators {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Enter A : ");
-        int A = scanner.nextInt();
+        int A = scan.nextInt();
         System.out.print("Enter B : ");
-        int B = scanner.nextInt();
+        int B = scan.nextInt();
         System.out.println("Addition => A + B = " + (A + B));
         System.out.println("Subtraction => A - B = " + (A - B));
         System.out.println("Multiplication => A * B = " + (A * B));
@@ -20,6 +20,6 @@ public class ArithmeticOperators {
         System.out.println("A = " + A);
         System.out.println("--B = " + (--B)); /* pre decrement */
         System.out.println("B = " + B);
-        scanner.close();
+        scan.close();
     }
 }
