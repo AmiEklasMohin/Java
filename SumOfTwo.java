@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class SumOfTwo {
-    public static int calculateSum(int numOne, int numTwo) {
+    public static int calculateSum(int numOne, int numTwo) { // parameters or formal parameters
         int sum = numOne + numTwo;
         return  sum;
     }
@@ -9,7 +9,7 @@ class SumOfTwo {
         Scanner scan = new Scanner(System.in);
         int numOne = scan.nextInt();
         int numTwo = scan.nextInt();
-        int sum = calculateSum(numOne, numTwo);
+        int sum = calculateSum(numOne, numTwo); // arguments or actual parameters
         System.out.println(sum);
         scan.close();
     }
