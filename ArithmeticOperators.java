@@ -12,13 +12,13 @@ public class ArithmeticOperators {
         System.out.println("Multiplication => A * B = " + (A * B));
         System.out.println("Division => A / B = " + (A / B));
         System.out.println("Modulo => A % B = " + (A % B));
-        System.out.println("A++ = " + (A++));
+        System.out.println("A++ = " + (A++)); /* post increment */
         System.out.println("A = " + A);
-        System.out.println("++B = " + (++B));
+        System.out.println("++B = " + (++B)); /* pre increment */
         System.out.println("B = " + B);
-        System.out.println("A-- = " + (A--));
+        System.out.println("A-- = " + (A--)); /* post decrement */
         System.out.println("A = " + A);
-        System.out.println("--B = " + (--B));
+        System.out.println("--B = " + (--B)); /* pre decrement */
         System.out.println("B = " + B);
         scanner.close();
     }
