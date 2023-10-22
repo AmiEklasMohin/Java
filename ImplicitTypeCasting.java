@@ -4,7 +4,7 @@ public class ImplicitTypeCasting {
         long b = a;
         System.out.println(b);
         char ch = 'a';
-        int asciiCode = ch;
-        System.out.println(asciiCode);
+        int numericValue = ch;
+        System.out.println(numericValue);
     }
 }
