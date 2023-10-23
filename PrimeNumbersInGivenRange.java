@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class PrimeNumbersInGivenRange {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Enter first number : ");
-        int firstNumber = scanner.nextInt();
+        int firstNumber = scan.nextInt();
         System.out.print("Enter second number : ");
-        int secondNumber = scanner.nextInt();
+        int secondNumber = scan.nextInt();
         int temp = firstNumber, primeCounter = 0;
         do {
             boolean flag = true; 
@@ -30,6 +30,6 @@ public class PrimeNumbersInGivenRange {
         } while (temp <= secondNumber);
 
         System.out.println("\nNumber of primes between " + firstNumber + " and " + secondNumber + " is = " + primeCounter);
-        scanner.close();
+        scan.close();
     }
 }
