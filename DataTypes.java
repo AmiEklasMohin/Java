@@ -1,5 +1,6 @@
 public class DataTypes {
     public static void main(String[] args) {
+        /* There are 8 primitive data types in Java */
         byte b = 8;
         System.out.println(b);
         short s = 240;
